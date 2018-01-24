@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECFC9554201864E100ECCCF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFC9553201864E100ECCCF9 /* AppDelegate.m */; };
+		ECFC9557201864E100ECCCF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFC9556201864E100ECCCF9 /* ViewController.m */; };
+		ECFC955A201864E100ECCCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFC9558201864E100ECCCF9 /* Main.storyboard */; };
+		ECFC955C201864E100ECCCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFC955B201864E100ECCCF9 /* Assets.xcassets */; };
+		ECFC955F201864E100ECCCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFC955D201864E100ECCCF9 /* LaunchScreen.storyboard */; };
+		ECFC9562201864E100ECCCF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFC9561201864E100ECCCF9 /* main.m */; };
+		ECFC956C201864E100ECCCF9 /* HHRACPracticalDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFC956B201864E100ECCCF9 /* HHRACPracticalDemoTests.m */; };
+		ECFC9577201864E100ECCCF9 /* HHRACPracticalDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFC9576201864E100ECCCF9 /* HHRACPracticalDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECFC9568201864E100ECCCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFC9547201864E100ECCCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFC954E201864E100ECCCF9;
+			remoteInfo = HHRACPracticalDemo;
+		};
+		ECFC9573201864E100ECCCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECFC9547201864E100ECCCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFC954E201864E100ECCCF9;
+			remoteInfo = HHRACPracticalDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECFC954F201864E100ECCCF9 /* HHRACPracticalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHRACPracticalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC9552201864E100ECCCF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECFC9553201864E100ECCCF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECFC9555201864E100ECCCF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECFC9556201864E100ECCCF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECFC9559201864E100ECCCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECFC955B201864E100ECCCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECFC955E201864E100ECCCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECFC9560201864E100ECCCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFC9561201864E100ECCCF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECFC9567201864E100ECCCF9 /* HHRACPracticalDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHRACPracticalDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC956B201864E100ECCCF9 /* HHRACPracticalDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHRACPracticalDemoTests.m; sourceTree = "<group>"; };
+		ECFC956D201864E100ECCCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFC9572201864E100ECCCF9 /* HHRACPracticalDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHRACPracticalDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFC9576201864E100ECCCF9 /* HHRACPracticalDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHRACPracticalDemoUITests.m; sourceTree = "<group>"; };
+		ECFC9578201864E100ECCCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECFC954C201864E100ECCCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC9564201864E100ECCCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC956F201864E100ECCCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECFC9546201864E100ECCCF9 = {
+			isa = PBXGroup;
+			children = (
+				ECFC9551201864E100ECCCF9 /* HHRACPracticalDemo */,
+				ECFC956A201864E100ECCCF9 /* HHRACPracticalDemoTests */,
+				ECFC9575201864E100ECCCF9 /* HHRACPracticalDemoUITests */,
+				ECFC9550201864E100ECCCF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECFC9550201864E100ECCCF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC954F201864E100ECCCF9 /* HHRACPracticalDemo.app */,
+				ECFC9567201864E100ECCCF9 /* HHRACPracticalDemoTests.xctest */,
+				ECFC9572201864E100ECCCF9 /* HHRACPracticalDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECFC9551201864E100ECCCF9 /* HHRACPracticalDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC9552201864E100ECCCF9 /* AppDelegate.h */,
+				ECFC9553201864E100ECCCF9 /* AppDelegate.m */,
+				ECFC9555201864E100ECCCF9 /* ViewController.h */,
+				ECFC9556201864E100ECCCF9 /* ViewController.m */,
+				ECFC9558201864E100ECCCF9 /* Main.storyboard */,
+				ECFC955B201864E100ECCCF9 /* Assets.xcassets */,
+				ECFC955D201864E100ECCCF9 /* LaunchScreen.storyboard */,
+				ECFC9560201864E100ECCCF9 /* Info.plist */,
+				ECFC9561201864E100ECCCF9 /* main.m */,
+			);
+			path = HHRACPracticalDemo;
+			sourceTree = "<group>";
+		};
+		ECFC956A201864E100ECCCF9 /* HHRACPracticalDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC956B201864E100ECCCF9 /* HHRACPracticalDemoTests.m */,
+				ECFC956D201864E100ECCCF9 /* Info.plist */,
+			);
+			path = HHRACPracticalDemoTests;
+			sourceTree = "<group>";
+		};
+		ECFC9575201864E100ECCCF9 /* HHRACPracticalDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC9576201864E100ECCCF9 /* HHRACPracticalDemoUITests.m */,
+				ECFC9578201864E100ECCCF9 /* Info.plist */,
+			);
+			path = HHRACPracticalDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECFC954E201864E100ECCCF9 /* HHRACPracticalDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC957B201864E100ECCCF9 /* Build configuration list for PBXNativeTarget "HHRACPracticalDemo" */;
+			buildPhases = (
+				ECFC954B201864E100ECCCF9 /* Sources */,
+				ECFC954C201864E100ECCCF9 /* Frameworks */,
+				ECFC954D201864E100ECCCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHRACPracticalDemo;
+			productName = HHRACPracticalDemo;
+			productReference = ECFC954F201864E100ECCCF9 /* HHRACPracticalDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECFC9566201864E100ECCCF9 /* HHRACPracticalDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC957E201864E100ECCCF9 /* Build configuration list for PBXNativeTarget "HHRACPracticalDemoTests" */;
+			buildPhases = (
+				ECFC9563201864E100ECCCF9 /* Sources */,
+				ECFC9564201864E100ECCCF9 /* Frameworks */,
+				ECFC9565201864E100ECCCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFC9569201864E100ECCCF9 /* PBXTargetDependency */,
+			);
+			name = HHRACPracticalDemoTests;
+			productName = HHRACPracticalDemoTests;
+			productReference = ECFC9567201864E100ECCCF9 /* HHRACPracticalDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECFC9571201864E100ECCCF9 /* HHRACPracticalDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECFC9581201864E100ECCCF9 /* Build configuration list for PBXNativeTarget "HHRACPracticalDemoUITests" */;
+			buildPhases = (
+				ECFC956E201864E100ECCCF9 /* Sources */,
+				ECFC956F201864E100ECCCF9 /* Frameworks */,
+				ECFC9570201864E100ECCCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECFC9574201864E100ECCCF9 /* PBXTargetDependency */,
+			);
+			name = HHRACPracticalDemoUITests;
+			productName = HHRACPracticalDemoUITests;
+			productReference = ECFC9572201864E100ECCCF9 /* HHRACPracticalDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECFC9547201864E100ECCCF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Han Jize";
+				TargetAttributes = {
+					ECFC954E201864E100ECCCF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECFC9566201864E100ECCCF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECFC954E201864E100ECCCF9;
+					};
+					ECFC9571201864E100ECCCF9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECFC954E201864E100ECCCF9;
+					};
+				};
+			};
+			buildConfigurationList = ECFC954A201864E100ECCCF9 /* Build configuration list for PBXProject "HHRACPracticalDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECFC9546201864E100ECCCF9;
+			productRefGroup = ECFC9550201864E100ECCCF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECFC954E201864E100ECCCF9 /* HHRACPracticalDemo */,
+				ECFC9566201864E100ECCCF9 /* HHRACPracticalDemoTests */,
+				ECFC9571201864E100ECCCF9 /* HHRACPracticalDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECFC954D201864E100ECCCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC955F201864E100ECCCF9 /* LaunchScreen.storyboard in Resources */,
+				ECFC955C201864E100ECCCF9 /* Assets.xcassets in Resources */,
+				ECFC955A201864E100ECCCF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC9565201864E100ECCCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC9570201864E100ECCCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECFC954B201864E100ECCCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC9557201864E100ECCCF9 /* ViewController.m in Sources */,
+				ECFC9562201864E100ECCCF9 /* main.m in Sources */,
+				ECFC9554201864E100ECCCF9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC9563201864E100ECCCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC956C201864E100ECCCF9 /* HHRACPracticalDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFC956E201864E100ECCCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFC9577201864E100ECCCF9 /* HHRACPracticalDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECFC9569201864E100ECCCF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFC954E201864E100ECCCF9 /* HHRACPracticalDemo */;
+			targetProxy = ECFC9568201864E100ECCCF9 /* PBXContainerItemProxy */;
+		};
+		ECFC9574201864E100ECCCF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECFC954E201864E100ECCCF9 /* HHRACPracticalDemo */;
+			targetProxy = ECFC9573201864E100ECCCF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECFC9558201864E100ECCCF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFC9559201864E100ECCCF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECFC955D201864E100ECCCF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECFC955E201864E100ECCCF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECFC9579201864E100ECCCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECFC957A201864E100ECCCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECFC957C201864E100ECCCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HHRACPracticalDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanhan.HHRACPracticalDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECFC957D201864E100ECCCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HHRACPracticalDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanhan.HHRACPracticalDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECFC957F201864E100ECCCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HHRACPracticalDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanhan.HHRACPracticalDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HHRACPracticalDemo.app/HHRACPracticalDemo";
+			};
+			name = Debug;
+		};
+		ECFC9580201864E100ECCCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HHRACPracticalDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanhan.HHRACPracticalDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HHRACPracticalDemo.app/HHRACPracticalDemo";
+			};
+			name = Release;
+		};
+		ECFC9582201864E100ECCCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HHRACPracticalDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanhan.HHRACPracticalDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HHRACPracticalDemo;
+			};
+			name = Debug;
+		};
+		ECFC9583201864E100ECCCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HHRACPracticalDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanhan.HHRACPracticalDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HHRACPracticalDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECFC954A201864E100ECCCF9 /* Build configuration list for PBXProject "HHRACPracticalDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC9579201864E100ECCCF9 /* Debug */,
+				ECFC957A201864E100ECCCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC957B201864E100ECCCF9 /* Build configuration list for PBXNativeTarget "HHRACPracticalDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC957C201864E100ECCCF9 /* Debug */,
+				ECFC957D201864E100ECCCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC957E201864E100ECCCF9 /* Build configuration list for PBXNativeTarget "HHRACPracticalDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC957F201864E100ECCCF9 /* Debug */,
+				ECFC9580201864E100ECCCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECFC9581201864E100ECCCF9 /* Build configuration list for PBXNativeTarget "HHRACPracticalDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC9582201864E100ECCCF9 /* Debug */,
+				ECFC9583201864E100ECCCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECFC9547201864E100ECCCF9 /* Project object */;
+}
